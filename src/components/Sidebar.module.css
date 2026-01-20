@@ -1,0 +1,33 @@
+.sidebar {
+  width: 250px;
+  background-color: #1e293b;
+  color: white;
+  min-height: 100vh;
+  padding: 30px 20px;
+  display: flex;
+  flex-direction: column; /* লিঙ্কগুলোকে নিচে নিচে সাজাবে */
+}
+
+.menuItem {
+  display: block; /* এটি লিঙ্কগুলোকে একটার নিচে আরেকটা আনবে */
+  padding: 12px 15px;
+  margin-bottom: 10px;
+  color: #cbd5e1 !important; /* টেক্সট কালার ঠিক করবে */
+  text-decoration: none !important; /* নিচের নীল দাগ সরাবে */
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.active {
+  background-color: #3b82f6 !important; /* একটিভ থাকলে নীল হবে */
+  color: white !important;
+}
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #38bdf8;
+  margin-bottom: 40px;
+}
+.menuItem:hover {
+  background-color: #334155;
+}
